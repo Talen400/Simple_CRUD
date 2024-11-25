@@ -123,7 +123,7 @@ Main entry point for the application, where the server is initialized, database 
 
 ### **User Endpoints**
 
-- **POST /api/user**  
+- **POST (/api/user)**  
   Creates a new user.  
   **Request body**:  
   ```json
@@ -132,7 +132,7 @@ Main entry point for the application, where the server is initialized, database 
   }
   ```
 
-- **GET /api/user/:id**  
+- **GET (/api/user/:id)**  
   Retrieves a user by their ID.  
   **Response**:  
   ```json
@@ -141,7 +141,7 @@ Main entry point for the application, where the server is initialized, database 
   }
   ```
 
-- **PUT /api/user/:id**  
+- **PUT (/api/user/:id)**  
   Updates an existing user.  
   **Request body**:  
   ```json
@@ -151,7 +151,7 @@ Main entry point for the application, where the server is initialized, database 
   }
   ```
 
-- **DELETE /api/user/:id**  
+- **DELETE (/api/user/:id)**  
   Deletes a user by their ID.  
   **Response**:  
   ```json
