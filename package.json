@@ -1,5 +1,5 @@
 {
-  "name": "postgres_docker",
+  "name": "simple_crud",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
